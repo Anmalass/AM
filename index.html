@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b12">
+  <title>Motion Hub — Alight Motion</title>
+  <meta name="description" content="Modern static dashboard inspired by an Alight Motion account and license response viewer.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow glow-a"></div>
+  <div class="bg-glow glow-b"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">
+      <span class="brand-mark">M</span>
+      <span>Motion<span>Hub</span></span>
+    </a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#status">Status</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="ghost-btn" id="themeBtn" aria-label="Toggle theme">◐</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="dot"></span> STATIC GITHUB PAGES DEMO</div>
+        <h1>Motion tools.<br><em>Cleanly presented.</em></h1>
+        <p>A modern dashboard concept for viewing account, subscription, and feature information in one place.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#status">View status <span>→</span></a>
+          <a class="secondary-btn" href="#features">Explore features</a>
+        </div>
+      </div>
+
+      <div class="status-card">
+        <div class="card-head">
+          <div>
+            <span class="label">ACCOUNT STATUS</span>
+            <h2>Premium overview</h2>
+          </div>
+          <span class="badge">DEMO</span>
+        </div>
+        <div class="status-main">
+          <div class="status-icon">✓</div>
+          <div>
+            <strong>Example account</strong>
+            <span>Static sample data</span>
+          </div>
+        </div>
+        <div class="meter"><span></span></div>
+        <div class="stats">
+          <div><b>1</b><small>Subscription</small></div>
+          <div><b>8</b><small>Benefits</small></div>
+          <div><b>1 yr</b><small>Period</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-title">
+        <span class="label">FEATURES</span>
+        <h2>Everything at a glance.</h2>
+        <p>Information from the supplied project is represented here as a clean, static interface.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon">⌁</span>
+          <h3>Account status</h3>
+          <p>See the account result and subscription state in a compact card.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">◆</span>
+          <h3>Benefits</h3>
+          <p>Browse the feature benefits associated with the sample subscription.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">◷</span>
+          <h3>Subscription</h3>
+          <p>View period, store, renewal state, and expiry information.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section status-section" id="status">
+      <div class="section-title">
+        <span class="label">STATUS</span>
+        <h2>Subscription details</h2>
+      </div>
+
+      <div class="dashboard">
+        <div class="panel">
+          <div class="panel-head">
+            <div>
+              <span class="label">RESULT</span>
+              <h3>Success</h3>
+            </div>
+            <span class="online">● Active</span>
+          </div>
+          <div class="detail-list">
+            <div><span>Subscription type</span><b>Subscription</b></div>
+            <div><span>Store</span><b>Apple App Store</b></div>
+            <div><span>Auto renewing</span><b>Yes</b></div>
+            <div><span>Link status</span><b>Linked current</b></div>
+          </div>
+        </div>
+
+        <div class="panel benefits">
+          <div class="panel-head">
+            <div>
+              <span class="label">BENEFITS</span>
+              <h3>Included features</h3>
+            </div>
+            <span class="count">8</span>
+          </div>
+          <div class="chips">
+            <span>Remove Watermark</span>
+            <span>Member Effects</span>
+            <span>Project Sharing</span>
+            <span>Future Member Features</span>
+            <span>Advanced Easing</span>
+            <span>Camera Objects</span>
+            <span>Layer Parenting</span>
+            <span>Cloud Storage</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="notice">
+        <span>i</span>
+        <p><strong>Static demo:</strong> this page does not contact Alight Motion, RevenueCat, Apple, or any licensing endpoint. The displayed data is sample UI content based on the supplied project.</p>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-card">
+        <div>
+          <span class="label">ABOUT THIS BUILD</span>
+          <h2>Made for GitHub Pages.</h2>
+          <p>Pure HTML, CSS, and JavaScript. No server, database, or secret API credentials are required for the demo.</p>
+        </div>
+        <a class="primary-btn" href="#home">Back to top ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>MotionHub</span>
+    <span>Static GitHub Pages interface</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
